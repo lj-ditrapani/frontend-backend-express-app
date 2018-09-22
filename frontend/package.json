@@ -5,6 +5,7 @@
   "browser": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "js-beautify -r src/* && eslint src",
     "build": "./build.sh"
   },
   "author": "Jonathan Di Trapani",

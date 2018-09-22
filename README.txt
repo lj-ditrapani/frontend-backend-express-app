@@ -1,3 +1,5 @@
+maybe don't need jake after all?
+
 both
 ----
 - dev
@@ -13,6 +15,7 @@ frontend
 - dev
     - browserify
     - jsdom
+    - some kind of minify/uglify lib?
 
 backend
 -------
