@@ -1,11 +1,29 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "frontend",
+  "browser": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./build.sh"
   },
   "author": "Jonathan Di Trapani",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+      "type" : "git",
+      "url" : "https://github.com/lj-ditrapani/frontend-backend-express-app.git"
+  },
+  "engines" : { "node" : ">=8.10.0" },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jake": "^8.0.18",
+    "js-beautify": "^1.8.6",
+    "mocha": "^5.2.0"
+  }
 }

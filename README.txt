@@ -11,6 +11,7 @@ frontend
 - bootsrtrap
 - jQuery
 - dev
+    - browserify
     - jsdom
 
 backend
