@@ -1,11 +1,8 @@
-maybe don't need jake after all?
-
 both
 ----
 - dev
     - mocha
     - eslint
-    - jake
     - js-beautify
 
 frontend
