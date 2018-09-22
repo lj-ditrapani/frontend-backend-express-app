@@ -4,9 +4,10 @@
   "description": "frontend",
   "browser": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "js-beautify -r src/* && eslint src",
-    "build": "browserify src/index.js > ../backend/public/bundle.js"
+    "test": "mocha",
+    "lint": "js-beautify -r src/* test/* && eslint src",
+    "build": "browserify src/index.js > ../backend/public/bundle.js",
+    "all": "npm run lint && npm test && npm run build"
   },
   "author": "Jonathan Di Trapani",
   "license": "ISC",
