@@ -46,3 +46,13 @@ frontend
 backend
 -------
 - express
+
+
+Future
+======
+
+- Frontend
+    - bootsrtrap
+    - dev
+        - jsdom
+        - some kind of minify/uglify lib?
