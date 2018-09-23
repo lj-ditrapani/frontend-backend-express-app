@@ -1,7 +1,11 @@
 Frontend & Backend Example
 ==========================
 
-Example of how to setup a basic express web app with separate frontend and backend projects.
+Example of how to setup a basic express web app with separate frontend
+and backend projects.
+A group of coop students at work are building a web app and want
+to use node/express.
+I created this repo to help get them started.
 
 
 Setup
@@ -47,13 +51,3 @@ frontend
 backend
 -------
 - express
-
-
-Future
-======
-
-- Frontend
-    - bootsrtrap
-    - dev
-        - jsdom
-        - some kind of minify/uglify lib?
