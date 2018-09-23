@@ -23,6 +23,7 @@ For each build
     cd frontend
     npm run all
     cd ../backend
+    npm run all
     npm start
 ```
 

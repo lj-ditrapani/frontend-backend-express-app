@@ -1,9 +1,8 @@
 var $ = require('jquery')
-
 var foo = require('./foo.js')
 
-$('body').append('<p>' + foo() + '</p>')
-
-console.log(foo())
-
-$('body').append('<p>' + foo() + '</p>')
+$(function () {
+  $('body').append('<p>' + foo() + '</p>')
+  $('#main').append('<p>jQuery FTW</p>')
+  console.log(foo())
+})
